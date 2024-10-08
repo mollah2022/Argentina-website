@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    border-bottom: 3px solid rgba(0, 206, 209, 0.567);
+    backdrop-filter:blur(4px);
+    background-color: rgba(34, 34, 34, 0.25);
+}
+.nav-container{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+}
+
+.messi-pic{
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.messi-title{
+    font-size: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin: 0 1rem;
+}
+
+.messi-title:hover{
+    color: tomato;
+    cursor: pointer;
+    font-size: 25px;
+}
+.right{
+    margin-left:auto;
+}
+.list-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item{
+    list-style: none;
+    margin:2rem;
+}
+
+.list-link{
+    text-decoration: none;
+}
+.list-link:hover{
+    color: blue;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-text{
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+    line-height: 1rem;
+    margin: 2rem 2rem;
+}
+.hero-text:hover{
+    color: blueviolet;
+}
+
+.hero-photo{
+    width: 30vw;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.hero-pera{
+    margin: 6rem;
+    font-size: 20px;
+    text-align: justify;
+}
+.container{
+    background-color: black;
+    margin-top: 2rem;
+}
+
+.about-area{
+    background-color: black;
+    display: flex;
+}
+
+.one{
+    margin-right: 1rem;
+    border-right: 5px solid black;
+    padding: 1rem;
+}
+.two{
+    margin-right: 1rem;
+    border-right: 5px solid black;
+    padding: 1rem;
+}
+.three{
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.about-title{
+    color: tomato;
+    text-align: center;
+}
+.about-title:hover{
+    color: lightgreen;
+    cursor: pointer;
+}
+.about-para{
+    font-family: sans-serif;
+    text-align: justify;
+}
+.one:hover{
+    background-color: black;
+    color: #fff;
+}
+.two:hover{
+    background-color: black;
+    color: #fff;
+}
+.three:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.about1-area{
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+.photo-area{
+    display: flex;
+}
+.photo-all{
+    width: 20vw;
+    border-radius: 20%;
+    margin-top: 1rem;
+}
+.photo-pera{
+    margin: 0 5rem;
+    text-align: justify;
+    color: #16a085;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.footer-area{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
